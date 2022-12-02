@@ -1,1 +1,17 @@
-/* Add your CSS code below */
+/* Try different box model properties below */
+.site-wrapper:first-child {
+  color: white;
+}
+
+.site-header :nth-child(2) {
+  color: white;
+  margin-bottom: 0;
+}
+
+.site-wrapper :last-child {
+  font-size: 12px;
+}
+
+.messages :last-child {
+  box-shadow: 4px 4px 0 #dba944;
+}
