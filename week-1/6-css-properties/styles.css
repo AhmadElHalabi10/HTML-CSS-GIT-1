@@ -1,1 +1,17 @@
 /* Add your CSS code below */
+a {
+  color: red;
+  font-weight: bold;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
+
+.messages div:last-child {
+  border-left-color: blue;
+}
+
+div.message {
+  line-height: 3;
+}
